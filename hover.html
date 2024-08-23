@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin-top: 0px;
+        padding: 0px;
+      }
+      .boxa {
+        height: 350px;
+        width: 800px;
+        background-color: gray;
+        border: 1px solid brown;
+        display: flex;
+        margin: 50px auto;
+      }
+      .box1 {
+        height: 300px;
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 20px;
+        border-radius: 12px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        transition: all 300ms;
+        filter: grayscale(30%);
+        border: 1px solid white;
+       
+      }
+      .box1:nth-child(1) {
+        background-image: url(https://images.pexels.com/photos/264905/pexels-photo-264905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+      }
+      .box1:nth-child(2) {
+        background-image: url(https://images.pexels.com/photos/4052752/pexels-photo-4052752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+      }
+      .box1:nth-child(3) {
+        background-image: url(https://images.pexels.com/photos/4055973/pexels-photo-4055973.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+      }
+      .box1:nth-child(4) {
+        background-image: url(https://images.pexels.com/photos/5358943/pexels-photo-5358943.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+      }
+      .box1:nth-child(5) {
+        background-image: url(https://images.pexels.com/photos/1556679/pexels-photo-1556679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+      }
+      .box1:hover:nth-child(5) {
+        transform: translate(-40px, 40px);
+        opacity: 9;
+        height: 300px;
+        width: 300px;
+        transition: 2s;
+        box-shadow: rgb(47, 135, 230) 0px 20px 30px -10px;
+       
+      }
+      .box1:hover:nth-child(4) {
+        transform: translate(40px, -40px);
+        opacity: 9;
+        height: 300px;
+        width: 300px;
+        transition: 2s;
+        box-shadow: rgb(121, 179, 230) 3px 3px 6px 0px inset, rgba(107, 91, 247, 0.904) -3px -3px 6px 1px inset;
+        
+
+      }
+      .box1:hover:nth-child(3) {
+        transform: translate(-40px, 40px);
+        opacity: 9;
+        height: 300px;
+        width: 300px;
+        transition: 2s;
+        box-shadow: rgb(47, 135, 230) 0px 20px 30px -10px;
+      }
+      .box1:hover:nth-child(2) {
+        transform: translate(40px, -40px);
+        opacity: 9;
+        height: 300px;
+        width: 300px;
+        transition: 2s;
+        box-shadow: rgb(121, 179, 230) 3px 3px 6px 0px inset, rgba(107, 91, 247, 0.904) -3px -3px 6px 1px inset;
+
+      }
+      .box1:hover:nth-child(1) {
+        transform: translate(-40px, 40px);
+        opacity: 9;
+        height: 300px;
+        width: 300px;
+        transition: 2s;
+        box-shadow: rgb(47, 135, 230) 0px 20px 30px -10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boxa">
+      <div class="box1">Warrior Bobblehead</div>
+      <div class="box1">Funny mini rodent toy against black background</div>
+      <div class="box1">Small comic hero figurine placed on tree trunk</div>
+      <div class="box1">Yellow Bear On A Bench</div>
+      <div class="box1">Santa Claus Plush Toy</div>
+    </div>
+
+    
+  </body>
+</html>
